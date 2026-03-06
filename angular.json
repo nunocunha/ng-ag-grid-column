@@ -1,0 +1,30 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ng-ag-grid-column": {
+      "projectType": "library",
+      "root": "projects/ng-ag-grid-column",
+      "sourceRoot": "projects/ng-ag-grid-column/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "options": {
+            "project": "projects/ng-ag-grid-column/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-ag-grid-column/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng-ag-grid-column/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        }
+      }
+    }
+  }
+}

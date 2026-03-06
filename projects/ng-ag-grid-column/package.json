@@ -1,0 +1,25 @@
+{
+  "name": "@nunocunha/ng-ag-grid-column",
+  "version": "21.35.0",
+  "description": "Angular property decorator for simplified AG Grid column definitions with ngx-translate support",
+  "keywords": ["angular", "ag-grid", "decorator", "column-definition", "ngx-translate"],
+  "author": "Nuno Cunha",
+  "homepage": "https://nunocunha.pt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nunocunha/ng-ag-grid-column.git"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=21.0.0",
+    "@angular/core": ">=21.0.0",
+    "@ngx-translate/core": ">=17.0.0",
+    "ag-grid-community": ">=35.0.0",
+    "reflect-metadata": ">=0.2.0",
+    "rxjs": ">=7.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "sideEffects": false
+}

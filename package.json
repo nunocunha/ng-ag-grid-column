@@ -1,0 +1,25 @@
+{
+  "name": "ng-ag-grid-column-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "ng build ng-ag-grid-column",
+    "build:watch": "ng build ng-ag-grid-column --watch"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.1.0",
+    "@angular/cli": "^21.1.0",
+    "@angular/common": "^21.1.0",
+    "@angular/compiler": "^21.1.0",
+    "@angular/compiler-cli": "^21.1.0",
+    "@angular/core": "^21.1.0",
+    "@ngx-translate/core": "^17.0.0",
+    "ag-grid-community": "^35.1.0",
+    "ng-packagr": "^21.0.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "ts-essentials": "^10.1.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3"
+  }
+}
