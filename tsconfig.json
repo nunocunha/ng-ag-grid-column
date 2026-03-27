@@ -17,10 +17,18 @@
     "declaration": false,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": false,
-    "lib": ["ES2022", "dom"]
+    "lib": ["ES2022", "dom"],
+    "paths": {
+      "@nunocunha/ng-ag-grid-column": ["./dist/ng-ag-grid-column"]
+    }
   },
   "files": [],
   "references": [
-    { "path": "./projects/ng-ag-grid-column/tsconfig.lib.json" }
+    {
+      "path": "./projects/ng-ag-grid-column/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/example/tsconfig.app.json"
+    }
   ]
 }

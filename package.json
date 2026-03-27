@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "build": "ng build ng-ag-grid-column",
-    "build:watch": "ng build ng-ag-grid-column --watch"
+    "build:watch": "ng build ng-ag-grid-column --watch",
+    "build:example": "ng build example",
+    "serve:example": "ng serve example"
   },
   "devDependencies": {
     "@angular/build": "^21.1.0",
@@ -13,7 +15,10 @@
     "@angular/compiler": "^21.1.0",
     "@angular/compiler-cli": "^21.1.0",
     "@angular/core": "^21.1.0",
+    "@angular/platform-browser": "^21.2.9",
     "@ngx-translate/core": "^17.0.0",
+    "@ngx-translate/http-loader": "^17.0.0",
+    "ag-grid-angular": "^35.2.1",
     "ag-grid-community": "^35.1.0",
     "ng-packagr": "^21.0.1",
     "reflect-metadata": "^0.2.2",
