@@ -6,9 +6,14 @@
   "author": "Nuno Cunha",
   "homepage": "https://nunocunha.pt",
   "license": "MIT",
+  "bugs": { "url": "https://github.com/nunocunha/ng-ag-grid-column/issues" },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nunocunha/ng-ag-grid-column.git"
+    "url": "git+https://github.com/nunocunha/ng-ag-grid-column.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   },
   "peerDependencies": {
     "@angular/common": ">=21.0.0",
