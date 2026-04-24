@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "ng build ng-ag-grid-column",
+    "prepublishOnly": "cp README.md LICENSE dist/ng-ag-grid-column/",
     "build:watch": "ng build ng-ag-grid-column --watch",
     "build:example": "ng build example",
     "serve:example": "ng serve example"
