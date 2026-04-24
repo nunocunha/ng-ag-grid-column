@@ -1,6 +1,6 @@
 {
   "name": "@nunocunha/ng-ag-grid-column",
-  "version": "21.35.0",
+  "version": "21.35.1",
   "description": "Angular property decorator for simplified AG Grid column definitions with ngx-translate support",
   "keywords": ["angular", "ag-grid", "decorator", "column-definition", "ngx-translate"],
   "author": "Nuno Cunha",
